@@ -1,0 +1,27 @@
+# Docker
+*.log
+*.pid
+.env
+
+# Grafana
+grafana/data/
+grafana/plugins/
+
+# Prometheus
+prometheus/data/
+prometheus/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+*secret*
+*.pem
+*.key
